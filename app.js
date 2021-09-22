@@ -16,9 +16,9 @@ function checkDate(){
   console.log(sumOfDob)
   console.log(typeof sumOfDob)
   if(sumOfDob % Number(userNum.value) === 0){
-    outputDiv.innerHTML=`<img src="https://codesandbox.io/api/v1/sandboxes/rv9hp/fs/src/happy.svg"><h2>Congrats your birthday is lucky</h2>`
+    outputDiv.innerHTML=`<img src="./assets/happy.svg"><h2>Congrats your birthday is lucky</h2>`
   }else{
-    outputDiv.innerHTML=`<img src="https://codesandbox.io/api/v1/sandboxes/rv9hp/fs/src/unhappy.svg"><h2>Sorry you have an unlucky birthday!!</h2>`
+    outputDiv.innerHTML=`<img src="./assets/unhappy.svg"><h2>Sorry you have an unlucky birthday!!</h2>`
   }
 }
 submitBtn.addEventListener('click', checkDate)
